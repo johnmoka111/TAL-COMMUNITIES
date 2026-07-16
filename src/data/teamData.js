@@ -11,12 +11,12 @@ export const teamMembers = [
     id: 1,
     name: "John Moka",
     role: "CEO & Founder",
-    bio: "Expert en transformation digitale et visionnaire de l'écosystème TAL. Il pilote la stratégie globale, l'innovation technologique et les partenariats clés de TAL Communities pour connecter les talents locaux au marché mondial.",
+    bio: "Entrepreneur technologique, développeur Full-Stack et leader communautaire originaire de Bagira à Bukavu (RDC). Co-fondateur et PDG de TAL Communities, il pilote le TAL Hub — un incubateur qui propulse le développement socio-économique par le numérique. Il déploie des outils logiciels sur-mesure pour digitaliser l'économie informelle congolaise : gestion des stocks, suivi des dettes et calcul des bénéfices pour les entrepreneurs locaux.",
     image: johnMokaImg,
     linkedin: "https://www.linkedin.com/in/tal-communities-b86055416?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-    email: "john.moka@talcommunities.org",
+    email: "johnmoka2024@gmail.com",
     phone: "+243 981 430 687",
-    specialties: ["Stratégie Digitale", "Leadership", "Innovation"]
+    specialties: ["Développement Full-Stack", "Incubation Start-ups", "Digitalisation PME"]
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const teamMembers = [
     bio: "Architecte logiciel chevronné, spécialiste des infrastructures cloud et de la cybersécurité. Il supervise le développement de toutes les plateformes et participe activement à l'administration de l'écosystème.",
     image: lucienImg,
     linkedin: "https://www.linkedin.com/in/tal-communities-b86055416?utm_source=share_via&utm_content=profile&utm_medium=member_android",
-    email: "lucien.amani@talcommunities.org",
+    email: "luciusamani@gmail.com",
     phone: "+243 981 430 687",
     specialties: ["Cloud Computing", "Cybersécurité", "Administration"]
   },
