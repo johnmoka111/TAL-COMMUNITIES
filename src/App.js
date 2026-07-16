@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import About from './components/About';
+import About from '././components/About';
 import Services from './components/Services';
 import ProjectGallery from './components/ProjectGallery';
+import Gallery from './components/Gallery';
 import Team from './components/Team';
 import Collaboration from './components/Collaboration';
 import ContactForm from './components/ContactForm';
@@ -34,7 +35,7 @@ function App() {
   }, [darkMode]);
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100 selection:bg-teal-500 selection:text-white">
+    <div className="min-h-screen bg-slate-50 text-slate-800 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100 selection:bg-tal-orange selection:text-white">
       {/* Navigation Header */}
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
 
@@ -51,6 +52,9 @@ function App() {
 
         {/* Section 4: Projects Showcase */}
         <ProjectGallery />
+
+        {/* Section 4.5: Notre Vie en Images (Activities Gallery) */}
+        <Gallery />
 
         {/* Section 5: Team Members Profiles */}
         <Team />

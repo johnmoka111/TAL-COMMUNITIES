@@ -22,6 +22,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
     { name: "À Propos", href: "#apropos" },
     { name: "Expertises", href: "#expertises" },
     { name: "Projets", href: "#projets" },
+    { name: "Galerie", href: "#galerie" },
     { name: "Équipe", href: "#equipe" },
     { name: "Adhésion", href: "#adhesion" },
     { name: "Contact", href: "#contact" }
