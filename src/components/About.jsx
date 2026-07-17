@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutPhoto from '../assets/gallerie/P4.jpg';
 
 const About = () => {
   return (
@@ -22,7 +23,12 @@ const About = () => {
             <div className="h-1 w-16 bg-tal-orange rounded-full" />
             
             <p className="text-base leading-relaxed text-slate-600 dark:text-slate-300">
-              Né de l'initiative de créer un pôle d'excellence au Sud-Kivu, **TAL Communities** (où **TAL** signifie **Tech, Arts and Languages**) est une organisation hybride qui fusionne les compétences technologiques de pointe, la création artistique et l'apprentissage des langues sous toutes leurs formes pour accélérer le développement régional.
+              Né de l'initiative de créer un pôle d'excellence au Sud-Kivu,{' '}
+              <strong className="text-tal-navy dark:text-white">TAL Communities</strong>{' '}
+              — où <strong className="text-tal-orange">TAL</strong> signifie{' '}
+              <strong className="text-tal-orange">Tech, Arts and Languages</strong> — est une organisation hybride
+              qui fusionne les compétences technologiques de pointe, la création artistique et
+              l'apprentissage des langues sous toutes leurs formes pour accélérer le développement régional.
             </p>
 
             {/* Mission & Vision bullet points */}
@@ -60,15 +66,14 @@ const About = () => {
             </div>
           </div>
 
-          {/* Graphical/Illustrative Side */}
+          {/* Photo Side — image from gallery */}
           <div className="relative group">
-            {/* Visual element frame */}
             <div className="absolute inset-0 rounded-2xl bg-tal-navy opacity-10 blur-xl group-hover:opacity-20 transition-opacity pointer-events-none" />
             <div className="relative overflow-hidden rounded-2xl border border-slate-100 bg-slate-50 dark:border-slate-800 dark:bg-slate-850 p-2">
               <img 
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800" 
-                alt="Travail d'équipe au TAL Hub" 
-                className="w-full rounded-xl object-cover"
+                src={aboutPhoto}
+                alt="Activités au sein de TAL Communities" 
+                className="w-full rounded-xl object-cover aspect-[4/3]"
                 loading="lazy"
               />
               {/* Interactive badge over photo */}
